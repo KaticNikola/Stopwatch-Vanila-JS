@@ -1,0 +1,46 @@
+body{
+    background: #232323;
+    color: #f6f6f6;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;*/
+}
+
+.box{
+    max-width: 60%;
+    height: 50vh;
+    margin: 100px 50px;
+    display: inline-block;
+    text-align: center;
+}
+.lap{
+    margin: 100px 50px;
+    max-width: 30%;
+    height: 50vh;
+    display: inline-block;
+    text-align: center;
+    position: fixed;
+    font-size: 25px;
+}
+
+.stopwatch{
+    font-size: 11em;
+    font-family: monospace;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+ul li{
+    padding: 10px 0;
+    list-style: none;
+}
+button{
+    width: 90px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
